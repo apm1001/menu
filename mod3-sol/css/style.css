@@ -1,0 +1,50 @@
+#header-nav{
+    background-color: cadetblue;
+    border: 2px solid black;
+}
+#company-name{
+    margin-left: 20px;
+    font-size:1.5em;
+}
+.navbar-light .navbar-toggler {
+    border: 2px solid black;
+    margin-bottom:-2px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: azure;
+}
+.navbar-toggler:hover {
+    background-color: azure;
+}
+ul {
+    margin-bottom: 0px;
+}
+.nav-link {
+    text-align: center;
+    border-top: 2px solid black;
+}
+@media(min-width: 992px) {
+    button {
+        visibility: hidden;
+    }
+}
+/*small devices*/
+@media(min-width: 768px) and (max-width: 991px){
+    button {
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 767px){
+    
+}
+section.container{
+    background-color:lightslategray;
+    height: 2000px;
+}
+h2 {
+    color: black;
+    margin-bottom:20px;
+    margin-top: 10px;
+}
